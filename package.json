@@ -1,26 +1,17 @@
-{  
-  "name": "viewmodel",
+{
+  "name": "apily-viewmodel",
   "description": "ViewModel component",
   "version": "0.0.1",
-  "maintainers": [
-    {
-      "name": "Enrico Marino",
-      "url": "onirame.com"
-    },
-    {
-      "name": "Federico Spini",
-      "url": "federicospini.com"
-    }
+  "keywords": [
+    "HTML",
+    "DOM",
+    "MVC",
+    "view",
+    "viewmodel"
   ],
-  "homepage": "https://github.com/component-mvc/viewmodel",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/component-mvc/viewmodel.git"
+  "dependencies": {
+    "apily-view": "git://github.com/npmcomponent/apily-view.git",
+    "apily-model": "git://github.com/npmcomponent/apily-model.git"
   },
-  "main": "index.js",
-  "engines": {
-    "node": "*"
-  },
-  "dependencies": {},
-  "devDependencies": {}
+  "license": "MIT"
 }

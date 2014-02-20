@@ -17,8 +17,8 @@ module.exports = ViewModel;
  * Module dependencies
  */
 
-var View = require('view');
-var Model = require('model');
+var View = require('apily-view');
+var Model = require('apily-model');
 
 /*
  * ViewModel
